@@ -26,6 +26,6 @@ jobs:
       - name: SonarCloud Scan
         uses: sonarsource/sonarcloud-github-action@v1
         with:
-          projectKey: <key here>
-          organization: <TheDevFactory-AI>
+          projectKey: TheDevFactory-AI_sqtest-omega
+          organization: thedevfactory-ai
           token: ${{ddd12e04e9f9a996cbe5021b8b903a01fbbd04e4}}
