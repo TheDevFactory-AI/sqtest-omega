@@ -25,4 +25,25 @@ result = divide_numbers(10, 2)
 print("Division result:", result)
 
 
+class badCode:
+    def __init__(self):
+        self.a=1
+        self.b=2
+        self.c=3
+
+def some_method(x,y):
+    sum = x + y
+    return sum
+
+def main():
+    x = 10
+    y = 5
+    result = some_method(x, y)
+    print("Result is: ", result)
+    
+    obj = badCode()
+    print("Values: a={}, b={}, c={}".format(obj.a, obj.b, obj.c))
+
+
+
 #test 3
